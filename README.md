@@ -2,6 +2,8 @@
 
 `doctolib-checker` continuously checks Doctolib appointment availability and sends alerts through **ntfy.sh**, **email**, or both.
 
+Before I was using this script https://github.com/Schlaurens/doctolib-checker but it was bit hard to deal with URLs so I wanted to create my own, so I would like to thanks to https://github.com/Schlaurens for the idea.
+
 ## 1. Install
 
 Requires Python 3.11+.
