@@ -1,0 +1,26 @@
+{
+  "execution": {
+    "check_in_n_seconds": 60
+  },
+  "checking_window": {
+    "start": "",
+    "end": "",
+    "look_for_n_days": 15
+  },
+  "doctors": [
+    "https://www.doctolib.de/allgemeinmedizin/bonn/irmgard-schuppert-cd818906-6350-4475-a174-92dc5f682ddc/booking/availabilities?specialityId=1286&telehealth=false&placeId=practice-446499&insuranceSectorEnabled=true&insuranceSector=public&motiveIds%5B%5D=8645323&pid=practice-446499&vmids%5B%5D=8645323&speciality_ids%5B%5D=1286&insurance_sector=public&source=profile"
+  ],
+  "notifications": {
+    "ntfy": {
+      "server": "https://ntfy.sh",
+      "topic": "your-doctolib-topic"
+    },
+    "email": {
+      "sender": "your_gmail_address@gmail.com",
+      "app_password": "your_16_char_gmail_app_password",
+      "recipient": "recipient_address@example.com",
+      "smtp_host": "smtp.gmail.com",
+      "smtp_port": 587
+    }
+  }
+}
